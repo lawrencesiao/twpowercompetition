@@ -1,6 +1,7 @@
 from sklearn.model_selection import KFold
 # coding: utf-8
 # pylint: disable = invalid-name, C0111
+# ssh -L 8000:localhost:8888 your_server_username@your_server_ip
 import lightgbm as lgb
 import pandas as pd
 from sklearn.metrics import mean_squared_error,make_scorer
